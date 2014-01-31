@@ -19,13 +19,13 @@ main() /* main function that must exist in every C program */
     height = 8;
     length = 12;
     width = 10;
-	volume = height * length * width;
-	profit = 2150.48;
+    volume = height * length * width;
+    profit = 2150.48;
     
     printf("To C, or not to C: that is the question.\n"); /* '\n' tells 'printf' to advance to the next line after printing the message. */
     printf("We can write... \n Multiple lines of text... \n In just one line of code!\n"); /* Multiple instances of '\n' are allowed on a single line of code. */
-	printf("Height: %d\n", height); /* '%d' is a placeholder for a 'int' type variable. */
-	printf("Profit: $%.2f\n", profit); /* '%f' is a placeholder for a 'float' type variable. The number inbetween dictates how many decimal places are printed. */
+    printf("Height: %d\n", height); /* '%d' is a placeholder for a 'int' type variable. */
+    printf("Profit: $%.2f\n", profit); /* '%f' is a placeholder for a 'float' type variable. The number inbetween dictates how many decimal places are printed. */
     printf("Height: %d, Length: %d\n", height, length); /* There's no limit to the number of variables that can be printed by a single call to 'printf'. */
     
     return 0; /* Returns the number 0 to the operating system upon terminiation, indicating a succsesful program run. */
